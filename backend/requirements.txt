@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+requests
+PyYAML
+google-genai  
+langgraph       
+pydantic        
+python-dotenv
+mcp
+cryptography
+langchain-google-genai   # Bridge between LangChain/Graph and Gemini
+langchain-core
+google-genai
+langchain_chroma
+sqlmodel
+psycopg[binary]
+psycopg2
