@@ -1,0 +1,41 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+# Ignore virtual environments anywhere in the repo
+**/.venv/
+**/venv/
+.env
+.env.*
+extras/
+# FastAPI/UVicorn
+*.sqlite3
+
+# Chroma DB (keep folder, ignore contents)
+backend/chroma_db/*
+!backend/chroma_db/.gitkeep
+
+# Node/Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# VS Code
+.vscode/
+
+# Docker
+*.pid
+
+# Coverage/Reports
+coverage/
+*.coverage
+htmlcov/
+
+# Misc
+.tmp/
+.cache/
